@@ -1,0 +1,20 @@
+.bg-color{
+    background-color: #EFDECD;
+}
+
+.text-color{
+    color: #2A0800;
+}
+
+.btn-color{
+    background-color: #638475;
+}
+
+.footer-color{
+    background-color: #DBD7D2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: bg-color;
+}
