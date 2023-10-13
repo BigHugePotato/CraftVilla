@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Raleway:ital,wght@1,400;1,700&display=swap");
+
+body {
+  background-color: #efdecd;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+/* HEADER SECTION */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  background-color: #efdecd;
+  position: fixed; /* Fixes the header at the top */
+  top: 0; /* Ensures it's at the very top */
+  left: 0; /* Aligns it to the left */
+  width: 100%; /* Makes it span the full width of the viewport */
+  z-index: 1000; /* Optional: This ensures the header stays above other elements */
+  border-bottom: 1px solid rgba(42, 8, 0, 0.2);
+}
+
+.logo {
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  gap: 100px;
+  padding-right: 20px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: 5px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  color: #2a0800;
+}
+
+.nav-button:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white; /* Change text color on hover if needed */
+}
+
+/* MAIN SECTION */
+.booking {
+  padding-top: 200px;
+  height: 1300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.class-info {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-intro1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-intro1 h1 {
+  font-size: 24px;
+}
+
+.booking-intro1 img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.booking-general2 {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.booking-general2 p {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.info3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.location h2,
+.location p {
+  text-align: center;
+  margin: 5px;
+}
+
+.location p {
+  margin-top: 10px;
+}
+
+.location iframe {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.class-option {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  padding: 65px 10px;
+  border-radius: 10px;
+}
+
+.option1,
+.option2 {
+  border: 1px solid rgba(42, 8, 0, 0.4);
+  padding: 10px;
+  box-shadow: 3px 3px 4px rgb(71, 71, 71);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-now {
+  border: 1px solid rgba(42, 8, 0, 0.2);
+  padding: 5px 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  border-radius: 5px;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  color: #2a0800;
+}
+
+.book-now:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white; /* Change text color on hover if needed */
+}
+
+.end-section {
+  height: 330px;
+  border-top: 1px solid rgba(42, 8, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-section-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  min-width: 1440px;
+}
+
+.icon {
+  flex: 1;
+  display: flex;
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  opacity: 0.3;
+  width: 60%;
+  height: auto;
+  filter: sepia(1) saturate(5) hue-rotate(30deg);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-link {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.content-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
+
+.left-summary {
+  flex: 2;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.right-summary {
+  flex: 2;
+  align-items: end;
+  justify-content: center;
+  padding-right: 30px;
+}
+/* FOOTER SECTION */
+footer {
+  height: 70px;
+  background-color: #bda6a0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(42, 8, 0, 0.2);
+}
+
+.terms-services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  cursor: pointer;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.service-link {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.service-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}

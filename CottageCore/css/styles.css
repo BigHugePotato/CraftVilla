@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Raleway:ital,wght@1,400;1,700&display=swap');
+
+
+body {
+  background-color: #efdecd;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+                       /* HEADER SECTION */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  background-color: #efdecd;
+  position: fixed;   /* Fixes the header at the top */
+  top: 0;            /* Ensures it's at the very top */
+  left: 0;           /* Aligns it to the left */
+  width: 100%;       /* Makes it span the full width of the viewport */
+  z-index: 1000;     /* Optional: This ensures the header stays above other elements */
+  border-bottom: 1px solid rgba(42, 8, 0, 0.2);
+}
+
+.logo {
+  width: 200px;
+}
+
+
+
+nav {
+  display: flex;
+  gap: 100px;
+  padding-right: 20px;
+
+}
+
+.nav-button {
+  background-color: transparent;
+  border:  2px solid transparent;
+  padding: 5px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  color: #2a0800;
+}
+
+.nav-button:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white;  /* Change text color on hover if needed */
+}
+                         /* MAIN SECTION */
+main {
+  display: flex;
+  padding-top: 100px;
+  height: 100vh;
+}
+.left-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  overflow: hidden;
+  padding: 200px 30px 0 0;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.top-main-image,
+.bottom-main-image {
+  width: 55%;
+}
+
+.top-main-image {
+}
+
+.bottom-main-image {
+}
+
+.info-button {
+  background-color: #638475;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* EXPLORE SECTION */
+.explore-section {
+  padding: 50px 100px;
+  text-align: center;
+  height: 100vh;
+}
+
+.explore-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.explore-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure image covers the container */
+  display: block;
+  border-radius: 50%; /* This makes the image circular */
+}
+
+.explore-item {
+  flex: 1;
+  padding: 0 20px;
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  border-radius: 50%;
+}
+
+.explore-button {
+  display: block;
+  background-color: #638475;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 20px auto;
+  text-align: center;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+                                       /* FEEDBACK SECTION */
+.feedback-section {
+  background-color: #DBD7D2;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.feedback-section-header {
+                                     /* 1st BOX */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  height: 200px;
+  gap: 20px;
+}
+
+.review-button {
+  background-color: #638475;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 25px;
+  cursor: pointer;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.feedback-scroll {
+                                  /* 2st BOX */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 360px;
+}
+
+.comments {
+  display: flex;
+  border: #000000 2px solid;
+  padding: 45px;
+  gap: 80px; /* space between the cards*/
+}
+
+.comment {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  min-width: 200px; /* Or any other value depending on your design */
+}
+
+.slide-button-box {
+                                      /* 3st BOX */
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 240px;
+  gap: 20px;
+}
+
+.slide-button {
+  background-color: #638475;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+                                         /* END SECTION */
+
+.end-section {
+  height: 330px;
+  border-top: 1px solid rgba(42, 8, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-section-box {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  min-width: 1440px;
+}
+
+
+.icon {
+  flex: 1;
+  display: flex;
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  opacity: 0.3;
+  width: 60%;
+  height: auto;
+  filter: sepia(1) saturate(5) hue-rotate(30deg);
+}
+
+
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-link {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.content-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
+
+
+.left-summary {
+  flex: 2;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.right-summary {
+  flex: 2;
+  align-items: end;
+  justify-content: center;
+  padding-right: 30px;
+}
+                                   /* FOOTER SECTION */
+footer {
+
+  height: 70px;
+  background-color: #bda6a0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(42, 8, 0, 0.2);
+}
+
+.terms-services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  cursor: pointer;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.service-link {
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.service-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
