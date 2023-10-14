@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="logo" src="imgs/CottageCoreLogo.png" alt="Logo" />
+        <nav>
+          <button class="nav-button">Things</button>
+          <button class="nav-button">Things</button>
+          <button class="nav-button">Things</button>
+          <button class="nav-button">Things</button>
+        </nav>
+      </header>
+
+      <main>
+        <div class="content-container">
+          <section class="booking-form">
+            <h1>Classes - booking here</h1>
+            <form action="#" method="POST">
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="name1"
+                  id="name1"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  name="name2"
+                  id="name2"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="participants-number">
+                <label for="numPeople"
+                  >How many people are participating?</label
+                >
+                <select name="numPeople" id="numPeople">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+
+              <div class="participants-group">
+                <!-- You can adjust the number of participant fields as needed -->
+                <input
+                  type="text"
+                  name="participant1"
+                  id="participant1"
+                  placeholder="Name of participant"
+                />
+                <input
+                  type="text"
+                  name="participant2"
+                  id="participant2"
+                  placeholder="Name of participant"
+                />
+                <input
+                  type="text"
+                  name="participant3"
+                  id="participant3"
+                  placeholder="Name of participant"
+                />
+                <input
+                  type="text"
+                  name="participant4"
+                  id="participant4"
+                  placeholder="Name of participant"
+                />
+              </div>
+
+              <div class="comment-box">
+                <textarea
+                  id="comments"
+                  name="comments"
+                  placeholder="Anything you would like to let us know?"
+                  rows="4"
+                ></textarea>
+              </div>
+            </form>
+          </section>
+
+          <div class="summary">
+            <div class="option">
+              <h1>Summary</h1>
+              <h2>Watercolor Painting</h2>
+              <p>For Beginners</p>
+              <p>28.okt 2023</p>
+              <p>Price: 100$</p>
+              <button class="book-now">Pay & Book</button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="end-section">
+        <div class="end-section-box">
+          <div class="summary right-summary">
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+          </div>
+          <div class="icon">
+            <img src="imgs/logo.svg" alt="Icon" />
+          </div>
+          <div class="summary left-summary">
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="terms-services">
+          <div class="service-link">Content-link</div>
+          <div class="service-link">Content-link</div>
+          <div class="service-link">Content-link</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
