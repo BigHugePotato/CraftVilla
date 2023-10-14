@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/feedback.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="logo" src="imgs/CottageCoreLogo.png" alt="Logo" />
+        <nav>
+          <button class="nav-button">Things</button>
+          <button class="nav-button">Things</button>
+          <button class="nav-button">Things</button>
+          <button class="nav-button">Things</button>
+        </nav>
+      </header>
+
+      <main>
+        <div class="feedback-container">
+          <h1>Your Feedback is important!</h1>
+          <section class="feedback-form">
+            <form action="#" method="POST">
+              <p>Name</p>
+              <div class="input-group">
+                <input type="text" name="name" id="name" placeholder="Name" />
+              </div>
+
+              <p>Phonenumber</p>
+              <div class="input-group">
+                <input
+                  type="tel"
+                  name="phonenumber"
+                  id="phonenumber"
+                  placeholder="Phonenumber"
+                  pattern="[0-9]{10}"
+                />
+              </div>
+
+              <p>Email</p>
+              <div class="input-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                />
+              </div>
+
+              <p>Your Feedback</p>
+              <div class="comment-box">
+                <textarea
+                  id="comments"
+                  name="comments"
+                  placeholder="Your feedback from class"
+                  rows="4"
+                ></textarea>
+              </div>
+
+              <div class="input-group">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  value="Submit Feedback"
+                />
+              </div>
+            </form>
+          </section>
+        </div>
+      </main>
+
+      <section class="end-section">
+        <div class="end-section-box">
+          <div class="summary right-summary">
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+          </div>
+          <div class="icon">
+            <img src="imgs/logo.svg" alt="Icon" />
+          </div>
+          <div class="summary left-summary">
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+            <div class="content-link">Content-link</div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="terms-services">
+          <div class="service-link">Content-link</div>
+          <div class="service-link">Content-link</div>
+          <div class="service-link">Content-link</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
