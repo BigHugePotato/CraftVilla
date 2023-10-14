@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Raleway:ital,wght@1,400;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Raleway:ital,wght@1,400;1,700&display=swap");
 
 body {
   background-color: #efdecd;
@@ -13,27 +12,27 @@ body {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
 }
-                       /* HEADER SECTION */
+/* HEADER SECTION */
 header {
   display: flex;
   justify-content: space-around;
   padding: 20px 50px;
   background-color: #efdecd;
-  position: fixed;   /* Fixes the header at the top */
-  top: 0;            /* Ensures it's at the very top */
-  left: 0;           /* Aligns it to the left */
-  width: 100%;       /* Makes it span the full width of the viewport */
-  z-index: 1000;     /* Optional: This ensures the header stays above other elements */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   border-bottom: 1px solid rgba(42, 8, 0, 0.2);
 }
 
@@ -41,24 +40,21 @@ header {
   width: 200px;
 }
 
-
-
 nav {
   display: flex;
   gap: 100px;
   padding-right: 20px;
-
 }
 
 .nav-button {
   background-color: transparent;
-  border:  2px solid transparent;
+  border: 2px solid transparent;
   padding: 5px 40px;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 20px;
@@ -68,7 +64,7 @@ nav {
 .nav-button:hover {
   background-color: #638475;
   border-color: #638475;
-  color: white;  /* Change text color on hover if needed */
+  color: white;
 }
 
 
@@ -77,6 +73,112 @@ nav {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery-container {
+  display: flex;
+  padding-top: 200px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: auto;  
+  position: relative;  
+}
+
+.gallery-imgs {
+  margin-top: 50px;
+
+  position: relative;
+  width: 80%;  
+  height: 350vh;  
+  overflow: hidden;  
+}
+
+/* Generic image styling */
+.gallery-img {
+  position: absolute;  
+}
+
+
+/* Individual image adjustments */
+.img1 {
+  top: 0;
+  width: 60%;
+
+}
+
+.img2 {
+  top: 0px;
+  right: 0px;
+  width: 50%;
+}
+
+
+.img3 {
+  top: 450px;
+  width: 60%;
+}
+
+.img4 {
+    top: 400px;
+    width: 40%;
+    right: 0;
+  }  /* this overlaps the second image on the first, you can adjust this value as needed */
+
+
+.img5 {
+  top: 700px;
+  width: 45%;
+  right: 0; 
+}
+.img6 {
+  top: 900px;
+  width: 55%;
+
+}
+
+.img7 {
+  top: 1000px;
+  width: 50%;
+  right: 0;
+}
+
+.img8 {
+  top: 1300px;
+  width: 60%; 
+}
+
+.img9 {
+  top: 1350px;
+  width: 40%;
+  right: 0;
+}
+
+.img10 {
+  top: 1650px;
+  width: 40%;
+  right: 0;
+}
+
+.img11 {
+  top: 1750px;
+  width: 60%;
+
+}
 
 
 
@@ -110,107 +212,101 @@ nav {
 
 
 .end-section {
-    height: 330px;
-    border-top: 1px solid rgba(42, 8, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .end-section-box {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    min-width: 1440px;
-  }
-  
-  
-  .icon {
-    flex: 1;
-    display: flex;
-    width: 150px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .icon img {
-    opacity: 0.3;
-    width: 60%;
-    height: auto;
-    filter: sepia(1) saturate(5) hue-rotate(30deg);
-  }
-  
-  
-  
-  .summary {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .content-link {
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  .content-link:hover {
-    text-decoration: underline;
-    font-size: 105%;
-  }
-  
-  
-  .left-summary {
-    flex: 2;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    padding-left: 30px;
-  }
-  
-  .right-summary {
-    flex: 2;
-    align-items: end;
-    justify-content: center;
-    padding-right: 30px;
-  }
-                                     /* FOOTER SECTION */
-  footer {
-  
-    height: 70px;
-    background-color: #bda6a0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(42, 8, 0, 0.2);
-  }
-  
-  .terms-services {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    cursor: pointer;
-  
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .service-link {
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .service-link:hover {
-    text-decoration: underline;
-    font-size: 105%;
-  }
+  height: 330px;
+  border-top: 1px solid rgba(42, 8, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-section-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  min-width: 1440px;
+}
+
+.icon {
+  flex: 1;
+  display: flex;
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  opacity: 0.3;
+  width: 60%;
+  height: auto;
+  filter: sepia(1) saturate(5) hue-rotate(30deg);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-link {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.content-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
+
+.left-summary {
+  flex: 2;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.right-summary {
+  flex: 2;
+  align-items: end;
+  justify-content: center;
+  padding-right: 30px;
+}
+/* FOOTER SECTION */
+footer {
+  height: 70px;
+  background-color: #bda6a0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(42, 8, 0, 0.2);
+}
+
+.terms-services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  cursor: pointer;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.service-link {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.service-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
