@@ -15,12 +15,14 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
+  color: #2a0800;
 }
 
 p {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 /* HEADER SECTION */
 header {
@@ -67,58 +69,34 @@ nav {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .gallery-container {
   display: flex;
   padding-top: 200px;
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  height: auto;  
-  position: relative;  
+  height: auto;
+  position: relative;
 }
 
 .gallery-imgs {
   margin-top: 50px;
 
   position: relative;
-  width: 80%;  
-  height: 350vh;  
-  overflow: hidden;  
+  width: 80%;
+  height: 350vh;
+  overflow: hidden;
 }
 
 /* Generic image styling */
 .gallery-img {
-  position: absolute;  
+  position: absolute;
 }
-
 
 /* Individual image adjustments */
 .img1 {
   top: 0;
   width: 60%;
-
 }
 
 .img2 {
@@ -127,28 +105,25 @@ nav {
   width: 50%;
 }
 
-
 .img3 {
   top: 450px;
   width: 60%;
 }
 
 .img4 {
-    top: 400px;
-    width: 40%;
-    right: 0;
-  }  /* this overlaps the second image on the first, you can adjust this value as needed */
-
+  top: 400px;
+  width: 40%;
+  right: 0;
+}
 
 .img5 {
   top: 700px;
   width: 45%;
-  right: 0; 
+  right: 0;
 }
 .img6 {
   top: 900px;
   width: 55%;
-
 }
 
 .img7 {
@@ -159,7 +134,7 @@ nav {
 
 .img8 {
   top: 1300px;
-  width: 60%; 
+  width: 60%;
 }
 
 .img9 {
@@ -177,39 +152,7 @@ nav {
 .img11 {
   top: 1750px;
   width: 60%;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .end-section {
   height: 330px;
@@ -297,6 +240,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link {
@@ -304,9 +248,21 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link:hover {
   text-decoration: underline;
   font-size: 105%;
+}
+
+.end-section a,
+footer a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
+.end-section a:hover,
+footer a:hover {
+  text-decoration: underline;
 }

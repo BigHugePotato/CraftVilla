@@ -17,6 +17,12 @@ h1 {
   font-style: italic;
 }
 
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 p {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -66,13 +72,6 @@ nav {
   border-color: #638475;
   color: white; /* Change text color on hover if needed */
 }
-
-
-
-
-
-
-
 
 /* MAIN SECTION */
 .booking {
@@ -190,7 +189,7 @@ nav {
 .book-now:hover {
   background-color: #638475;
   border-color: #638475;
-  color: white; /* Change text color on hover if needed */
+  color: white;
 }
 
 .end-section {
@@ -279,6 +278,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link {
@@ -286,9 +286,21 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link:hover {
   text-decoration: underline;
   font-size: 105%;
+}
+
+.end-section a,
+footer a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
+.end-section a:hover,
+footer a:hover {
+  text-decoration: underline;
 }

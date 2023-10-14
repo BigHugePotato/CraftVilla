@@ -17,6 +17,12 @@ h1 {
   font-style: italic;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 p {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -69,7 +75,7 @@ nav {
 
 .feedback-container {
   display: flex;
-  padding-top: 50px;
+  padding-top: 150px;
   flex-direction: column;
   gap: 20px;
   align-items: center;
@@ -229,6 +235,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link {
@@ -236,9 +243,21 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link:hover {
   text-decoration: underline;
   font-size: 105%;
+}
+
+.end-section a,
+footer a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
+.end-section a:hover,
+footer a:hover {
+  text-decoration: underline;
 }

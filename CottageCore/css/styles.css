@@ -13,15 +13,24 @@ body {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
+  color:#2a0800;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  color:#2a0800;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
+  color:#2a0800;
 }
                        /* HEADER SECTION */
 header {
@@ -77,12 +86,14 @@ main {
   height: 100vh;
 }
 .left-content {
+  background-color: #638475;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: end;
   overflow: hidden;
   padding: 200px 30px 0 0;
+  position: relative;
 }
 
 .right-content {
@@ -91,18 +102,27 @@ main {
   justify-content: center;
   align-items: center;
   flex: 1;
+  gap: 10px;
+  padding-left: 20px;
 }
 
 .top-main-image,
 .bottom-main-image {
   width: 55%;
+  position: absolute;
 }
 
 .top-main-image {
+    top: 100px;
+    right: 190px;
+    width: 50%;
 }
 
 .bottom-main-image {
+  top: 300px;
+  width: 50%;
 }
+
 
 .info-button {
   background-color: #638475;
@@ -110,38 +130,55 @@ main {
   padding: 10px 20px;
   border-radius: 25px;
   cursor: pointer;
+  transition: background-color 0.3s;
 
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-style: italic;
 }
+.info-button:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* EXPLORE SECTION */
 .explore-section {
   padding: 50px 100px;
   text-align: center;
-  height: 100vh;
+  height: 70vh;
+  margin-top: 100px;
 }
 
 .explore-items {
   display: flex;
-  justify-content: space-between;
+  height: 400px;
+  justify-content: space-around;
   margin-top: 50px;
 }
 
 .explore-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Make sure image covers the container */
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
   display: block;
-  border-radius: 50%; /* This makes the image circular */
+  border-radius: 50%;
 }
 
 .explore-item {
-  flex: 1;
-  padding: 0 20px;
-  width: 200px; /* Set a fixed width */
-  height: 200px; /* Set a fixed height */
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -150,15 +187,23 @@ main {
   background-color: #638475;
   border: none;
   padding: 10px 20px;
-  border-radius: 15px;
+  border-radius: 20px;
   cursor: pointer;
   margin: 20px auto;
   text-align: center;
+  transition: background-color 0.3s;
 
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-style: italic;
 }
+
+.explore-button:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white;
+}
+
 
                                        /* FEEDBACK SECTION */
 .feedback-section {
@@ -167,8 +212,10 @@ main {
   flex-direction: column;
   padding: 50px;
   text-align: center;
-  min-height: 100vh;
+  min-height: 90vh;
 }
+
+
 
 .feedback-section-header {
                                      /* 1st BOX */
@@ -186,11 +233,19 @@ main {
   padding: 10px 10px;
   border-radius: 25px;
   cursor: pointer;
+  transition: background-color 0.3s;
 
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-style: italic;
 }
+
+.review-button:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white;
+}
+
 
 .feedback-scroll {
                                   /* 2st BOX */
@@ -203,16 +258,15 @@ main {
 
 .comments {
   display: flex;
-  border: #000000 2px solid;
-  padding: 45px;
-  gap: 80px; /* space between the cards*/
+  padding: 90px;
+  gap: 80px;
 }
 
 .comment {
-  background-color: #ffffff;
-  border: 1px solid #000000;
-  padding: 10px 20px;
-  min-width: 200px; /* Or any other value depending on your design */
+  background-color: #F5F5F5;
+  border: 1px solid #9b9b9b ;
+  padding: 20px 60px;
+  min-width: 250px;
 }
 
 .slide-button-box {
@@ -220,7 +274,7 @@ main {
   align-self: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 100px;
   height: 240px;
   gap: 20px;
@@ -236,6 +290,12 @@ main {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.slide-button:hover {
+  background-color: #638475;
+  border-color: #638475;
+  color: white;
 }
 
                                          /* END SECTION */
@@ -332,6 +392,7 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link {
@@ -339,9 +400,19 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: italic;
+  color: #2a0800;
 }
 
 .service-link:hover {
   text-decoration: underline;
   font-size: 105%;
+}
+
+.end-section a, footer a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
+.end-section a:hover, footer a:hover {
+  text-decoration: underline;
 }
