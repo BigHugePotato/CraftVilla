@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Raleway:ital,wght@1,400;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Raleway:ital,wght@1,400;1,700&display=swap");
 
 body {
   background-color: #efdecd;
@@ -16,33 +15,33 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
-  color:#2a0800;
+  color: #2a0800;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: italic;
-  color:#2a0800;
+  color: #2a0800;
 }
 
 p {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
-  color:#2a0800;
+  color: #2a0800;
 }
-                       /* HEADER SECTION */
+/* HEADER SECTION */
 header {
   display: flex;
   justify-content: space-around;
   padding: 20px 50px;
   background-color: #efdecd;
-  position: fixed;   /* Fixes the header at the top */
-  top: 0;            /* Ensures it's at the very top */
-  left: 0;           /* Aligns it to the left */
-  width: 100%;       /* Makes it span the full width of the viewport */
-  z-index: 1000;     /* Optional: This ensures the header stays above other elements */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   border-bottom: 1px solid rgba(42, 8, 0, 0.2);
 }
 
@@ -50,24 +49,21 @@ header {
   width: 200px;
 }
 
-
-
 nav {
   display: flex;
   gap: 100px;
   padding-right: 20px;
-
 }
 
 .nav-button {
   background-color: transparent;
-  border:  2px solid transparent;
+  border: 2px solid transparent;
   padding: 5px 40px;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 20px;
@@ -77,9 +73,9 @@ nav {
 .nav-button:hover {
   background-color: #638475;
   border-color: #638475;
-  color: white;  /* Change text color on hover if needed */
+  color: white;
 }
-                         /* MAIN SECTION */
+/* MAIN SECTION */
 main {
   display: flex;
   padding-top: 100px;
@@ -113,16 +109,15 @@ main {
 }
 
 .top-main-image {
-    top: 100px;
-    right: 190px;
-    width: 50%;
+  top: 100px;
+  right: 190px;
+  width: 50%;
 }
 
 .bottom-main-image {
   top: 300px;
   width: 50%;
 }
-
 
 .info-button {
   background-color: #638475;
@@ -132,7 +127,7 @@ main {
   cursor: pointer;
   transition: background-color 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
 }
@@ -141,17 +136,6 @@ main {
   border-color: #638475;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* EXPLORE SECTION */
 .explore-section {
@@ -193,7 +177,7 @@ main {
   text-align: center;
   transition: background-color 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
 }
@@ -204,10 +188,9 @@ main {
   color: white;
 }
 
-
-                                       /* FEEDBACK SECTION */
+/* FEEDBACK SECTION */
 .feedback-section {
-  background-color: #DBD7D2;
+  background-color: #dbd7d2;
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -215,10 +198,8 @@ main {
   min-height: 90vh;
 }
 
-
-
 .feedback-section-header {
-                                     /* 1st BOX */
+  /* 1st BOX */
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -235,7 +216,7 @@ main {
   cursor: pointer;
   transition: background-color 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
 }
@@ -246,9 +227,8 @@ main {
   color: white;
 }
 
-
 .feedback-scroll {
-                                  /* 2st BOX */
+  /* 2st BOX */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -263,14 +243,14 @@ main {
 }
 
 .comment {
-  background-color: #F5F5F5;
-  border: 1px solid #9b9b9b ;
+  background-color: #f5f5f5;
+  border: 1px solid #9b9b9b;
   padding: 20px 60px;
   min-width: 250px;
 }
 
 .slide-button-box {
-                                      /* 3st BOX */
+  /* 3st BOX */
   align-self: center;
   display: flex;
   justify-content: center;
@@ -298,7 +278,7 @@ main {
   color: white;
 }
 
-                                         /* END SECTION */
+/* END SECTION */
 
 .end-section {
   height: 330px;
@@ -309,14 +289,12 @@ main {
 }
 
 .end-section-box {
-
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
   min-width: 1440px;
 }
-
 
 .icon {
   flex: 1;
@@ -334,8 +312,6 @@ main {
   filter: sepia(1) saturate(5) hue-rotate(30deg);
 }
 
-
-
 .summary {
   display: flex;
   flex-direction: column;
@@ -347,7 +323,7 @@ main {
   border-radius: 5px;
   cursor: pointer;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-style: italic;
 }
@@ -355,7 +331,6 @@ main {
   text-decoration: underline;
   font-size: 105%;
 }
-
 
 .left-summary {
   flex: 2;
@@ -371,9 +346,8 @@ main {
   justify-content: center;
   padding-right: 30px;
 }
-                                   /* FOOTER SECTION */
+/* FOOTER SECTION */
 footer {
-
   height: 70px;
   background-color: #bda6a0;
   display: flex;
@@ -389,7 +363,7 @@ footer {
   gap: 50px;
   cursor: pointer;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
   color: #2a0800;
@@ -397,7 +371,7 @@ footer {
 
 .service-link {
   cursor: pointer;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: italic;
   color: #2a0800;
@@ -408,11 +382,13 @@ footer {
   font-size: 105%;
 }
 
-.end-section a, footer a {
-  text-decoration: none; /* Removes the underline */
-  color: inherit; /* Inherits the color from the parent element */
+.end-section a,
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.end-section a:hover, footer a:hover {
+.end-section a:hover,
+footer a:hover {
   text-decoration: underline;
 }

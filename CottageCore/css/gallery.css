@@ -88,7 +88,6 @@ nav {
   overflow: hidden;
 }
 
-/* Generic image styling */
 .gallery-img {
   position: absolute;
 }
@@ -258,8 +257,8 @@ footer {
 
 .end-section a,
 footer a {
-  text-decoration: none; /* Removes the underline */
-  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none;
+  color: inherit;
 }
 
 .end-section a:hover,

@@ -34,11 +34,11 @@ header {
   justify-content: space-around;
   padding: 20px 50px;
   background-color: #efdecd;
-  position: fixed; /* Fixes the header at the top */
-  top: 0; /* Ensures it's at the very top */
-  left: 0; /* Aligns it to the left */
-  width: 100%; /* Makes it span the full width of the viewport */
-  z-index: 1000; /* Optional: This ensures the header stays above other elements */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   border-bottom: 1px solid rgba(42, 8, 0, 0.2);
 }
 
@@ -70,7 +70,7 @@ nav {
 .nav-button:hover {
   background-color: #638475;
   border-color: #638475;
-  color: white; /* Change text color on hover if needed */
+  color: white;
 }
 
 /* MAIN SECTION */
@@ -296,8 +296,8 @@ footer {
 
 .end-section a,
 footer a {
-  text-decoration: none; /* Removes the underline */
-  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none;
+  color: inherit;
 }
 
 .end-section a:hover,
