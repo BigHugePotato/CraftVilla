@@ -84,7 +84,7 @@ nav {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  height: 450vh;
+  height: 2500px;
   position: relative;
 }
 
@@ -92,8 +92,8 @@ nav {
   margin-top: 50px;
 
   position: relative;
-  width: 80%;
-  height: 450vh;
+  width: 70%;
+  height: 2500px;
   overflow: hidden;
 }
 
@@ -109,57 +109,57 @@ nav {
 }
 
 .img2 {
-  top: 0px;
-  right: 0px;
+  top: 0%;
+  right: 0%;
   width: 50%;
 }
 
 .img3 {
-  top: 450px;
+  top: 16%;
   width: 60%;
 }
 
 .img4 {
-  top: 400px;
+  top: 14%;
   width: 40%;
   right: 0;
 }
 
 .img5 {
-  top: 700px;
+  top: 25%;
   width: 45%;
   right: 0;
 }
 .img6 {
-  top: 900px;
+  top: 31%;
   width: 55%;
 }
 
 .img7 {
-  top: 1000px;
+  top: 36%;
   width: 50%;
   right: 0;
 }
 
 .img8 {
-  top: 1300px;
+  top: 46%;
   width: 60%;
 }
 
 .img9 {
-  top: 1350px;
-  width: 40%;
+  top: 49%;
+  width: 44%;
   right: 0;
 }
 
 .img10 {
-  top: 1650px;
+  top: 62%;
   width: 40%;
   right: 0;
 }
 
 .img11 {
-  top: 1750px;
+  top: 62%;
   width: 60%;
 }
 
