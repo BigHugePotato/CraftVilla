@@ -77,7 +77,7 @@ nav {
 
 .feedback-container {
   display: flex;
-  padding-top: 50px;
+  padding-top: 10px;
   flex-direction: column;
   gap: 20px;
   align-items: center;
