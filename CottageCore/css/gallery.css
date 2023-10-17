@@ -28,7 +28,8 @@ p {
 header {
   display: flex;
   justify-content: space-around;
-  padding: 20px 50px;
+  align-items: center;
+  padding: 10px 50px;
   background-color: #efdecd;
   position: fixed;
   top: 0;
@@ -38,13 +39,14 @@ header {
   border-bottom: 1px solid rgba(42, 8, 0, 0.2);
 }
 
+
 .logo {
   width: 200px;
 }
 
 nav {
   display: flex;
-  gap: 100px;
+  gap: 70px;
   padding-right: 20px;
 }
 
@@ -69,13 +71,20 @@ nav {
   color: white;
 }
 
+
+
+
+
+
+
+
 .gallery-container {
   display: flex;
   padding-top: 200px;
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  height: auto;
+  height: 450vh;
   position: relative;
 }
 
@@ -84,12 +93,13 @@ nav {
 
   position: relative;
   width: 80%;
-  height: 350vh;
+  height: 450vh;
   overflow: hidden;
 }
 
 .gallery-img {
   position: absolute;
+  width: 80%;
 }
 
 /* Individual image adjustments */
@@ -153,8 +163,16 @@ nav {
   width: 60%;
 }
 
+
+
+
+
+
+
+
+
 .end-section {
-  height: 330px;
+  height: 250px;
   border-top: 1px solid rgba(42, 8, 0, 0.2);
   display: flex;
   justify-content: center;
@@ -221,7 +239,7 @@ nav {
 }
 /* FOOTER SECTION */
 footer {
-  height: 70px;
+  height: 50px;
   background-color: #bda6a0;
   display: flex;
   flex-direction: row;

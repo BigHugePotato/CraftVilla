@@ -35,7 +35,8 @@ p {
 header {
   display: flex;
   justify-content: space-around;
-  padding: 20px 50px;
+  align-items: center;
+  padding: 10px 50px;
   background-color: #efdecd;
   position: fixed;
   top: 0;
@@ -51,7 +52,7 @@ header {
 
 nav {
   display: flex;
-  gap: 100px;
+  gap: 70px;
   padding-right: 20px;
 }
 
@@ -109,13 +110,13 @@ main {
 }
 
 .top-main-image {
-  top: 100px;
+  top: 50px;
   right: 190px;
   width: 50%;
 }
 
 .bottom-main-image {
-  top: 300px;
+  top: 250px;
   width: 50%;
 }
 
@@ -141,7 +142,7 @@ main {
 .explore-section {
   padding: 50px 100px;
   text-align: center;
-  height: 70vh;
+  height: 100vh;
   margin-top: 100px;
 }
 
@@ -195,7 +196,7 @@ main {
   flex-direction: column;
   padding: 50px;
   text-align: center;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .feedback-section-header {
@@ -281,7 +282,7 @@ main {
 /* END SECTION */
 
 .end-section {
-  height: 330px;
+  height: 250px;
   border-top: 1px solid rgba(42, 8, 0, 0.2);
   display: flex;
   justify-content: center;
@@ -348,7 +349,7 @@ main {
 }
 /* FOOTER SECTION */
 footer {
-  height: 70px;
+  height: 50px;
   background-color: #bda6a0;
   display: flex;
   flex-direction: row;

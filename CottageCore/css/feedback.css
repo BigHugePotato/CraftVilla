@@ -32,7 +32,8 @@ p {
 header {
   display: flex;
   justify-content: space-around;
-  padding: 20px 50px;
+  align-items: center;
+  padding: 10px 50px;
   background-color: #efdecd;
   position: fixed;
   top: 0;
@@ -42,13 +43,14 @@ header {
   border-bottom: 1px solid rgba(42, 8, 0, 0.2);
 }
 
+
 .logo {
   width: 200px;
 }
 
 nav {
   display: flex;
-  gap: 100px;
+  gap: 70px;
   padding-right: 20px;
 }
 
@@ -75,12 +77,12 @@ nav {
 
 .feedback-container {
   display: flex;
-  padding-top: 150px;
+  padding-top: 50px;
   flex-direction: column;
   gap: 20px;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 200vh;
 }
 
 .feedback-form {
@@ -90,7 +92,7 @@ nav {
   gap: 30px;
   align-items: start;
   justify-items: center;
-  padding: 50px;
+  padding: 40px;
   border-radius: 5px;
   border: 1px solid rgba(42, 8, 0, 0.2);
   width: 60%;
@@ -150,7 +152,7 @@ input[type="tel"] {
 }
 
 .end-section {
-  height: 330px;
+  height: 250px;
   border-top: 1px solid rgba(42, 8, 0, 0.2);
   display: flex;
   justify-content: center;
@@ -217,7 +219,7 @@ input[type="tel"] {
 }
 /* FOOTER SECTION */
 footer {
-  height: 70px;
+  height: 50px;
   background-color: #bda6a0;
   display: flex;
   flex-direction: row;
